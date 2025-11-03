@@ -19,6 +19,7 @@ A Flask-based web application for monitoring Cisco switch ports status with real
 ├── models.py              # Database models
 ├── forms.py               # Form definitions
 ├── switch_manager.py      # Switch port status management
+├── pyproject.toml         # Python project’s metadata and dependencies in a standardised way
 ├── static/
 │   ├── css/
 │   │   └── custom.css     # Custom styles
