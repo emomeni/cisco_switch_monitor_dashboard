@@ -101,3 +101,13 @@ The application will be available at `http://localhost:5000`
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Example Dashboard
+
+Here is an example of the dashboard showing interface status:
+
+![Dashboard screenshot](images/dashboard.png)
+
+and this is the Login Page:
+
+![Port detail screenshot](images/login-page.png)
