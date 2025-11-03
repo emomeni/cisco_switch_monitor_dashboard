@@ -1,0 +1,55 @@
+/* Status indicators */
+.status-indicator {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.status-up {
+    background-color: var(--bs-success-bg-subtle);
+    color: var(--bs-success);
+}
+
+.status-down {
+    background-color: var(--bs-danger-bg-subtle);
+    color: var(--bs-danger);
+}
+
+/* Loading spinner overlay */
+#loadingSpinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+/* Responsive table improvements */
+.table-responsive {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* Dashboard header */
+.dashboard-header {
+    padding: 1rem 0;
+}
+
+/* Button improvements */
+#refreshBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Feather icon alignment */
+.feather {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
