@@ -1,0 +1,10 @@
+Flask>=3.1.0
+flask-login>=0.6.3
+flask-sqlalchemy>=3.1.1
+flask-wtf>=1.2.2
+WTForms>=3.2.1
+Werkzeug>=3.1.3
+email-validator>=2.2.0
+gunicorn>=23.0.0          # optional: production WSGI server
+psycopg2-binary>=2.9.10   # optional: PostgreSQL driver
+netmiko>=4.5.0            # for SSH/CLI automation on Cisco devices
